@@ -1,1 +1,9 @@
+android/
+├── build.gradle              ✅ Muss in android/
+├── app/
+│   ├── build.gradle          ✅ Muss in android/app/
+│   └── src/
+│       └── main/
+│           └── AndroidManifest.xml ✅ Muss in android/app/src/main/
+
 
