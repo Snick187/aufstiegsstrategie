@@ -1,0 +1,26 @@
+
+name: aufstiegsstrategie
+description: App zur Amphetamin-Ausstiegsbegleitung
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: any
+  firebase_auth: any
+  cloud_firestore: any
+  confetti: any
+  pdf: any
+  printing: any
+  intl: any
+  url_launcher: any
+  flutter_local_notifications: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
